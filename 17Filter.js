@@ -112,6 +112,9 @@ console.log("A".charCodeAt(0));
 console.log("1".charCodeAt(0));
 
 let duaString = "2";
-let duaNum = 2;
-let add = duaNum + duaString;
+let limaNum = 5;
+let add = duaString + limaNum;
+let subt1 = limaNum - duaString;
+let subt2 = duaString - limaNum;
 console.log(add);
+console.log(subt1, subt2);
