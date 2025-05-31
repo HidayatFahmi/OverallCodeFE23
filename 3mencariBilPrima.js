@@ -1,5 +1,5 @@
 let startNum = 1;
-let lastNumber = 9;
+let lastNumber = 20;
 let primesNumbers = [];
 let primeNumberCount = 0;
 
@@ -9,6 +9,7 @@ const findPrimesNumber = (start, last) => {
     let isPrimes = true;
 
     for (let j = 2; j <= Math.sqrt(i); j++) {
+      console.log(i, j, i % j);
       if (i % j == 0) {
         isPrimes = false;
         break;
