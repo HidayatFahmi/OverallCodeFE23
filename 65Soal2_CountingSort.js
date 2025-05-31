@@ -13,6 +13,8 @@ function countingSortAsc(arr) {
     while (mapArr[i] && mapArr[i] > 0) {
       newArr.push(i);
       mapArr[i]--;
+      console.log(newArr);
+      console.log(mapArr);
     }
   }
   return newArr;

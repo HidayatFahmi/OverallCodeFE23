@@ -9,7 +9,7 @@ function arrCounter(arr) {
       countObj[`${arr[i]}`]++;
     }
   }
-
+  console.log(countObj);
   return countObj;
 }
 
