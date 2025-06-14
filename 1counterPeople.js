@@ -5,6 +5,7 @@ let people = [
   "thomas",
   "alea",
   "lerma",
+  ,
   1,
   "sweas",
   true,
